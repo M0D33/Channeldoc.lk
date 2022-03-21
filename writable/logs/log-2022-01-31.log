@@ -1,0 +1,18 @@
+CRITICAL - 2022-01-31 11:59:29 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI-4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\login.php(34): redirect('/Home/index')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\login->readdb()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-31 21:43:39 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI-4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\login.php(34): redirect('/Home/index')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\login->readdb()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

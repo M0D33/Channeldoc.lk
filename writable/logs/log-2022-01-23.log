@@ -1,0 +1,137 @@
+CRITICAL - 2022-01-23 11:23:58 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\CI-4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\CI-4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-23 12:08:12 --> Invalid file: Register/index.php
+#0 C:\xampp\htdocs\CI-4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Register/index....')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(1089): CodeIgniter\View\View->render('Register/index....', Array, true)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\register.php(10): view('Register/index....')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-23 12:08:43 --> Invalid file: Register/index.php
+#0 C:\xampp\htdocs\CI-4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Register/index....')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(1089): CodeIgniter\View\View->render('Register/index....', Array, true)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\register.php(10): view('Register/index....')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-23 13:00:15 --> Undefined variable $empl
+#0 C:\xampp\htdocs\CI-4\app\Views\welcome_message.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\CI-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI-4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\CI-4\app\Controllers\Home.php(9): view('welcome_message')
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-23 14:13:16 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI-4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\login.php(34): redirect('/Home/index')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\login->readdb()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-23 14:13:40 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI-4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\login.php(34): redirect('/Home/index')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\login->readdb()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-23 14:31:32 --> Undefined variable $dfhc
+#0 C:\xampp\htdocs\CI-4\app\Views\employeeinfo\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\CI-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI-4\system\Common.php(1089): CodeIgniter\View\View->render('Employeeinfo/in...', Array, true)
+#4 C:\xampp\htdocs\CI-4\app\Controllers\employeeinfo.php(26): view('Employeeinfo/in...')
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\Employeeinfo->index()
+#6 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employeeinfo))
+#7 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-23 14:31:35 --> Undefined variable $dfhc
+#0 C:\xampp\htdocs\CI-4\app\Views\employeeinfo\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\CI-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI-4\system\Common.php(1089): CodeIgniter\View\View->render('Employeeinfo/in...', Array, true)
+#4 C:\xampp\htdocs\CI-4\app\Controllers\employeeinfo.php(26): view('Employeeinfo/in...')
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\Employeeinfo->index()
+#6 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employeeinfo))
+#7 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-23 14:32:06 --> Undefined variable $dfhc
+#0 C:\xampp\htdocs\CI-4\app\Views\employeeinfo\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\CI-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI-4\system\Common.php(1089): CodeIgniter\View\View->render('Employeeinfo/in...', Array, true)
+#4 C:\xampp\htdocs\CI-4\app\Controllers\employeeinfo.php(26): view('Employeeinfo/in...')
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\Employeeinfo->index()
+#6 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employeeinfo))
+#7 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-23 14:32:10 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\dfhc given
+#0 C:\xampp\htdocs\CI-4\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\df...')
+#1 C:\xampp\htdocs\CI-4\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\df...')
+#2 C:\xampp\htdocs\CI-4\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\df...')
+#3 C:\xampp\htdocs\CI-4\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\df...')
+#4 C:\xampp\htdocs\CI-4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\CI-4\app\Controllers\Home.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-23 14:32:17 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\dfhc given
+#0 C:\xampp\htdocs\CI-4\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('App\\Entities\\df...')
+#1 C:\xampp\htdocs\CI-4\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\df...')
+#2 C:\xampp\htdocs\CI-4\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\df...')
+#3 C:\xampp\htdocs\CI-4\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\df...')
+#4 C:\xampp\htdocs\CI-4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\CI-4\app\Controllers\Home.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-23 14:42:41 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI-4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\login.php(34): redirect('/Home/index')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\login->readdb()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-23 14:55:43 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI-4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\login.php(34): redirect('welcome_message')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\login->readdb()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-23 14:56:50 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI-4\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI-4\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI-4\app\Controllers\login.php(34): redirect('/Views/welcome_...')
+#3 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(825): App\Controllers\login->readdb()
+#4 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\CI-4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

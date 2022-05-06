@@ -1,0 +1,50 @@
+
+.navbar{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .navbar-brand{
+    text-transform:bold ;
+    
+    color: green !important;
+  }
+  
+  .navbar .nav-link{
+    
+    font-size: 16px;
+    color: black !important;
+   
+  }
+  
+  .nav-link:hover{
+    color: #28a745 !important;
+  }
+  
+  .navlink .active{
+  color: #28a745 !important;
+  }
+  
+  .navbar-nav .btn{
+  background-color: #28a745 !important;
+  color: #fff !important ;
+
+  transition: 0.5s;
+  }
+  
+  .navbar-nav .btn:hover{
+  opacity: 0.9;
+  }
+  
+  .btn-floating{
+    color: #28a745 !important;    
+  }
+  
+  .btn-floating:hover{
+    color: #2fb94f !important;
+    transition: ease-in-out 2s;
+  }
+  
+  .table-responsive td, .table-responsive th {
+      border: none;
+
+  }

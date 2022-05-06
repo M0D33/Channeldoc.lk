@@ -21,24 +21,18 @@ class login extends BaseController
            //Login Succcessful
            $session = session(); //initialize session
            $session->regenerate(); // for security reasons
-           $session->set('name', $empls->name);
-           $session->set('id', $empls->id);
+           $session->set('fname', $empls->fname);
+           $session->set('user_id', $empls->user_id);
 
            //return redirect()->to("/Login/loginok")->with('info','Login Successful');
-           return redirect()->to("/employeeinfo/index")->with('info','Login OK'); 
+           return redirect()->to("/patientProfile/index")->with('info','Login OK'); 
        }
        else
        {
            //Wrong user name or password
-           //return redirect()->to("Login/loginnotok")->with('info','Login name or password mismatch!');
+           session()->setFlashdata('fail', 'Incorrect Password!');
+           return redirect()->to("login/index")->withInput();
            
-
-echo '<script type="text/javascript">
-
-            window.onload = function () { alert("Login data incorrect"); }
-
-</script>';
-
 
        }
 
@@ -46,8 +40,10 @@ echo '<script type="text/javascript">
 
     public function logout()
     {
-        $session=session();
-        $session->destroy();
-        return redirect()->to("Home/index");//->with('info','Login name or password mismatch!');
+        if (session()->has('user_id')) {
+			session()->remove('user_id');
+			session()->remove('fname');
+        return redirect()->to("login/index")->with('fail','You have been logged out!');
     }
+}
 }

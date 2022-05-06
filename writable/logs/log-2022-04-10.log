@@ -1,0 +1,146 @@
+ERROR - 2022-04-10 07:28:20 --> Unknown column 'dob' in 'field list'
+CRITICAL - 2022-04-10 07:28:20 --> Unknown column 'dob' in 'field list'
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\register.php(44): CodeIgniter\Model->insert(Object(App\Entities\empl))
+#8 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\register->writedb()
+#9 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\register))
+#10 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 07:30:34 --> Call to undefined function show_validation_error()
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('/patientProfile...', Array, true)
+#3 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(91): view('/patientProfile...', Array)
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-10 07:31:15 --> Unknown column 'dob' in 'field list'
+CRITICAL - 2022-04-10 07:31:15 --> Unknown column 'dob' in 'field list'
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\register.php(44): CodeIgniter\Model->insert(Object(App\Entities\empl))
+#8 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\register->writedb()
+#9 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\register))
+#10 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 08:20:27 --> Call to undefined function show_validation_error()
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('/patientProfile...', Array, true)
+#3 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(91): view('/patientProfile...', Array)
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 08:22:18 --> Call to undefined function show_validation_error()
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('/patientProfile...', Array, true)
+#3 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(91): view('/patientProfile...', Array)
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 08:32:09 --> Undefined variable $username
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 117)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 08:32:57 --> Undefined variable $currentJobTitle
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 124)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-10 08:33:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 26' at line 10
+CRITICAL - 2022-04-10 08:33:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 26' at line 10
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE user\r\n  ...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user\r\n  ...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user\r\n  ...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('UPDATE user\r\n  ...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(125): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-10 08:42:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 'user_id' = 26' at line 10
+CRITICAL - 2022-04-10 08:42:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 'user_id' = 26' at line 10
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE user\r\n  ...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user\r\n  ...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user\r\n  ...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('UPDATE user\r\n  ...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(125): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-10 08:43:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = '26'' at line 10
+CRITICAL - 2022-04-10 08:43:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = '26'' at line 10
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE user\r\n  ...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user\r\n  ...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user\r\n  ...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('UPDATE user\r\n  ...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(125): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-10 08:44:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 26' at line 10
+CRITICAL - 2022-04-10 08:44:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 26' at line 10
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE user\r\n  ...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user\r\n  ...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user\r\n  ...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('UPDATE user\r\n  ...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(125): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-10 08:48:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 26' at line 10
+CRITICAL - 2022-04-10 08:48:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 26' at line 10
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE user\r\n  ...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user\r\n  ...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user\r\n  ...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('UPDATE user\r\n  ...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(125): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-10 08:49:42 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-10 08:49:42 --> Unknown column 'id' in 'where clause'
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE user\r\n  ...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user\r\n  ...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user\r\n  ...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('UPDATE user\r\n  ...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(125): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

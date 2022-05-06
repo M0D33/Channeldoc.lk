@@ -1,0 +1,91 @@
+CRITICAL - 2022-04-23 05:13:21 --> Undefined variable $comment
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\AppointmentsPractitioners\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-23 05:14:29 --> Undefined variable $comment
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\AppointmentsPractitioners\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-23 05:14:36 --> Undefined variable $comment
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\AppointmentsPractitioners\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-23 05:14:39 --> Undefined variable $comment
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\AppointmentsPractitioners\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-23 05:15:02 --> Undefined variable $comment
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\AppointmentsPractitioners\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-23 05:44:42 --> Unclosed '{' on line 150
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-23 05:45:10 --> Unclosed '{' on line 150
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-23 05:45:13 --> Unclosed '{' on line 150
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-23 05:46:38 --> Unclosed '{' on line 150
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(12): view('AppointmentsPra...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

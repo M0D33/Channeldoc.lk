@@ -1,0 +1,63 @@
+ERROR - 2022-05-05 00:30:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-05 00:30:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index('6')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-05 06:51:36 --> Too few arguments to function App\Controllers\doctorProfile::writedb(), 0 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorProfile->writedb()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorProfile))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-05 06:52:59 --> Too few arguments to function App\Controllers\doctorProfile::writedb(), 0 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorProfile->writedb()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorProfile))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-05 06:53:07 --> Too few arguments to function App\Controllers\doctorProfile::writedb(), 0 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorProfile->writedb()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorProfile))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-05 10:13:36 --> Unmatched '}'
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(18): view('AppointmentsPra...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 10:20:23 --> Unmatched '}'
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(18): view('AppointmentsPra...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 10:48:25 --> Undefined property: stdClass::$doctor_id
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\AdminDashboard\index.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 119)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminDashboard/...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDashboard.php(13): view('AdminDashboard/...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDashboard->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

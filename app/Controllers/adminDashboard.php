@@ -1,13 +1,15 @@
 <?php
 
-namespace App\Controllers;
+  namespace App\Controllers;
 
-class adminDashboard extends BaseController
-{
+  class AdminDashboard extends BaseController
+  {
     public function index()
     {
-    
-       return view('adminDashboard/index'); 
-
+        if (session()->get('admin_id') == null) {
+            return redirect()->to('Adminlogin/index')->with('fail', 'You must be logged in..');;
+          }
+ 
+        return view("AdminDashboard/index");
     }
-}
+  }

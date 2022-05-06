@@ -1,0 +1,385 @@
+ERROR - 2022-05-04 04:17:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 04:17:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 04:19:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 04:19:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 04:19:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 04:19:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 04:20:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 04:20:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 06:29:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 06:29:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 06:29:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 06:29:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 06:29:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 06:29:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-04 06:29:56 --> Undefined variable $query
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Channeldoc\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Channeldoc/inde...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Channeldoc.php(14): view('Channeldoc/inde...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Channeldoc->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Channeldoc))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-04 06:32:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 06:32:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\doctordetails\index.php(88): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('doctordetails/i...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Doctordetails.php(14): view('doctordetails/i...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->index('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 06:32:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 06:32:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\doctordetails\index.php(88): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('doctordetails/i...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Doctordetails.php(14): view('doctordetails/i...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->index('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 06:33:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 06:33:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\doctordetails\index.php(88): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('doctordetails/i...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Doctordetails.php(14): view('doctordetails/i...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->index('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-04 06:34:24 --> Undefined variable $doctor_id
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Search\index.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 278)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Search/index.ph...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Search.php(15): view('Search/index.ph...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Search->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 06:37:03 --> Undefined variable $doctor_id
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Search\index.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 278)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Search/index.ph...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Search.php(15): view('Search/index.ph...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Search->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 06:37:05 --> Undefined variable $doctor_id
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Search\index.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 278)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Search/index.ph...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Search.php(15): view('Search/index.ph...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Search->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 09:35:47 --> Undefined variable $doctor_id
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Search\index.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 278)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Search/index.ph...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Search.php(15): view('Search/index.ph...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Search->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 10:40:05 --> Too few arguments to function App\Controllers\Doctordetails::doctorDetailsPage(), 0 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->doctorDetailsPage()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 10:42:10 --> Too few arguments to function App\Controllers\Doctordetails::book(), 1 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 3 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->book('4test')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 10:46:20 --> Too few arguments to function App\Controllers\Doctordetails::doctorDetailsPage(), 0 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->doctorDetailsPage()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 10:46:30 --> Too few arguments to function App\Controllers\Doctordetails::book(), 1 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 3 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->book('4test')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 10:47:31 --> site_url(): Argument #3 ($config) must be of type ?Config\App, string given, called in C:\xampp\htdocs\Channeldoc.lk\app\Views\doctordetails\index.php on line 150
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\doctordetails\index.php(150): site_url('Doctordetails/b...', 'test', '')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('doctordetails/i...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Doctordetails.php(41): view('doctordetails/i...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->doctorDetailsPage('4')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 10:47:36 --> site_url(): Argument #3 ($config) must be of type ?Config\App, string given, called in C:\xampp\htdocs\Channeldoc.lk\app\Views\doctordetails\index.php on line 150
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\doctordetails\index.php(150): site_url('Doctordetails/b...', 'test', '')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('doctordetails/i...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Doctordetails.php(41): view('doctordetails/i...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->doctorDetailsPage('4')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 10:47:48 --> Too few arguments to function App\Controllers\Doctordetails::book(), 1 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 3 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->book('4test')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 10:54:34 --> Too few arguments to function App\Controllers\Doctordetails::book(), 1 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 3 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->book('4test')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 10:57:57 --> Too few arguments to function App\Controllers\Doctordetails::book(), 0 passed in C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php on line 825 and exactly 3 expected
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->book()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 11:35:36 --> Undefined variable $time
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Doctordetails.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->book('4test')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 11:36:24 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Doctordetails/d...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Doctordetails/d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 11:36:29 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Doctordetails/d...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Doctordetails/d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 11:38:32 --> There is no data to insert.
+#0 C:\xampp\htdocs\Channeldoc.lk\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(625): CodeIgniter\BaseModel->insert(Object(App\Entities\appos), true)
+#3 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Doctordetails.php(37): CodeIgniter\Model->insert(Object(App\Entities\appos))
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->book('4test')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-04 12:26:32 --> Undefined property: stdClass::$fname
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\AppointmentsPractitioners\index.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 171)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AppointmentsPra...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AppointmentsPractitioners.php(18): view('AppointmentsPra...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AppointmentsPractitioners->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppointmentsPractitioners))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 13:34:35 --> Undefined variable $query
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\AdminDashboard\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminDashboard/...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDashboard.php(13): view('AdminDashboard/...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDashboard->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 19:31:19 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminReportGenerate.php on line 25
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminReportGenerate.php(25): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminReportGenerate->index()
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminReportGenerate))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-04 19:37:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23 AND doctor_id =' at line 1
+CRITICAL - 2022-05-04 19:37:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23 AND doctor_id =' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-04 19:40:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-04 19:40:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\channeling\index.php(145): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('channeling/inde...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\channeling.php(13): view('channeling/inde...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\channeling->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\channeling))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-04 19:55:48 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php on line 25
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(25): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 19:57:33 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php on line 25
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(25): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

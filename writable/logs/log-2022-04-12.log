@@ -1,0 +1,192 @@
+CRITICAL - 2022-04-12 00:28:01 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Search\index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Search/index.ph...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Search.php(10): view('Search/index.ph...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Search->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-12 02:19:56 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-04-12 02:19:56 --> Unknown column 'username' in 'where clause'
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Channeldoc.lk\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Adminlogin.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Adminlogin->verifydb()
+#8 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adminlogin))
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-12 04:23:14 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getFile()
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorRegister->readdb()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorRegister))
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 04:39:16 --> Invalid file: Admin/index.php
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/index.php')
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorProfiles.php(9): view('Admin/index')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorProfiles->index()
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorProfiles))
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-12 08:50:15 --> Undefined property: stdClass::$Phonenumber
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\AdminDoctorProfiles\index.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 194)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminDoctorProf...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorProfiles.php(9): view('AdminDoctorProf...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorProfiles->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorProfiles))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 08:59:45 --> Undefined variable $doctor_id
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorProfiles.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 45)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorProfiles->deleteUser('12')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorProfiles))
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 09:01:38 --> Undefined variable $doctor_id
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorProfiles.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 46)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorProfiles->deleteUser('12')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorProfiles))
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 09:02:47 --> Undefined variable $doctor_id
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorProfiles.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 46)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorProfiles->deleteUser('12')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorProfiles))
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-12 09:34:11 --> Unknown column 'approval' in 'where clause'
+CRITICAL - 2022-04-12 09:34:11 --> Unknown column 'approval' in 'where clause'
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Views\AdminPatientProfiles\index.php(193): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminPatientPro...', Array, true)
+#8 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminPatientProfiles.php(9): view('AdminPatientPro...')
+#9 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminPatientProfiles->index()
+#10 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPatientProfiles))
+#11 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-12 09:34:57 --> Undefined property: stdClass::$Fname
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\AdminPatientProfiles\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 200)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminPatientPro...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminPatientProfiles.php(9): view('AdminPatientPro...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminPatientProfiles->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPatientProfiles))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 09:35:14 --> Undefined property: stdClass::$areaofexpertise
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\AdminPatientProfiles\index.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 206)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminPatientPro...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminPatientProfiles.php(9): view('AdminPatientPro...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminPatientProfiles->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPatientProfiles))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 09:35:23 --> Undefined property: stdClass::$doctor_id
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\AdminPatientProfiles\index.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 214)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminPatientPro...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminPatientProfiles.php(9): view('AdminPatientPro...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminPatientProfiles->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPatientProfiles))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 09:35:45 --> Undefined property: stdClass::$doctor_id
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\AdminPatientProfiles\index.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 214)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminPatientPro...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminPatientProfiles.php(9): view('AdminPatientPro...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminPatientProfiles->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPatientProfiles))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-12 11:15:25 --> Unknown column 'user_id' in 'where clause'
+CRITICAL - 2022-04-12 11:15:25 --> Unknown column 'user_id' in 'where clause'
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Select * from d...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Select * from d...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from d...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Select * from d...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Views\patientProfile\index.php(93): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientProfile/...', Array, true)
+#8 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(17): view('patientProfile/...')
+#9 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->index()
+#10 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#11 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-12 11:16:01 --> Undefined variable $Fname
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\patientProfile\index.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 122)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientProfile/...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(17): view('patientProfile/...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 11:18:04 --> Undefined variable $Fname
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\doctorProfile\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 124)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('doctorProfile/i...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\doctorProfile.php(17): view('doctorProfile/i...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorProfile->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 11:30:40 --> Undefined variable $fname
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\patientProfile\index.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 122)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientProfile/...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(17): view('patientProfile/...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 16:04:42 --> Undefined property: stdClass::$age
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\doctorProfile\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 101)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('doctorProfile/i...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\doctorProfile.php(17): view('doctorProfile/i...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorProfile->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

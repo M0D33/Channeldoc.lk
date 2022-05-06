@@ -1,0 +1,113 @@
+CRITICAL - 2022-04-13 02:55:08 --> Cannot use object of type App\Entities\doc as array
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorlogin->verifydb()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorlogin))
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 02:56:05 --> Cannot use object of type App\Entities\doc as array
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorlogin->verifydb()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorlogin))
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 03:09:10 --> Call to undefined function App\Controllers\reditect()
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorlogin->verifydb()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorlogin))
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 06:48:41 --> Undefined variable $Age
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\doctorProfile.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 130)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorProfile->editProfile()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorProfile))
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 06:50:03 --> Undefined variable $Age
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\doctorProfile.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 130)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorProfile->editProfile()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorProfile))
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 06:50:20 --> Undefined variable $Age
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\doctorProfile.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 130)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\doctorProfile->editProfile()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\doctorProfile))
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-13 07:29:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+                                              fname = 'Maan',
+            ...' at line 3
+CRITICAL - 2022-04-13 07:29:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+                                              fname = 'Maan',
+            ...' at line 3
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE user\r\n  ...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user\r\n  ...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user\r\n  ...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('UPDATE user\r\n  ...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(124): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 07:29:32 --> Undefined variable $fname
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\patientProfile\index.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 127)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientProfile/...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(17): view('patientProfile/...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-13 08:08:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+                                              fname = 'Muhammad',
+        ...' at line 3
+CRITICAL - 2022-04-13 08:08:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+                                              fname = 'Muhammad',
+        ...' at line 3
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE user\r\n  ...', 0)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user\r\n  ...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user\r\n  ...')
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('UPDATE user\r\n  ...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(124): CodeIgniter\Model->__call('query', Array)
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 10:28:06 --> Undefined property: stdClass::$user_id
+#0 D:\Xampp\htdocs\Channeldoc.lk\app\Views\AdminManage\index.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 275)
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminManage/ind...', Array, true)
+#4 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminManage.php(13): view('AdminManage/ind...')
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminManage->index()
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManage))
+#7 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 12:03:38 --> Call to undefined function set_value()
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminDashboard/...', Array, true)
+#3 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDashboard.php(13): view('AdminDashboard/...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDashboard->index()
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-13 12:04:10 --> Call to undefined function set_value()
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminDashboard/...', Array, true)
+#3 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDashboard.php(13): view('AdminDashboard/...')
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDashboard->index()
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

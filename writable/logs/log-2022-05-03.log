@@ -1,0 +1,167 @@
+ERROR - 2022-05-03 10:54:10 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 10:54:10 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fee...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fee...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fee...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fee...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 10:59:42 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 10:59:42 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fee...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fee...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fee...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fee...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 11:56:09 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 11:56:09 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fee...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fee...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fee...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fee...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 11:59:20 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 11:59:20 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fee...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fee...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fee...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fee...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 11:59:29 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 11:59:29 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fee...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fee...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fee...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fee...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 12:29:56 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 12:29:56 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fee...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fee...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fee...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fee...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 12:30:52 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 12:30:52 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fee...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fee...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fee...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fee...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 12:31:30 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 12:31:30 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fb(...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fb(...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fb(...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fb(...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 12:37:30 --> Undefined variable $row
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Feedback\index.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Feedback/index....', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(18): view('Feedback/index....')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 12:37:36 --> Undefined variable $row
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Feedback\index.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Feedback/index....', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(18): view('Feedback/index....')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 21:32:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-03 21:32:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\doctordetails\index.php(88): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('doctordetails/i...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Doctordetails.php(14): view('doctordetails/i...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Doctordetails->index('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctordetails))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-03 21:32:31 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 21:32:31 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fb(...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fb(...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fb(...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fb(...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(31): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-03 21:33:45 --> Column count doesn't match value count at row 1
+CRITICAL - 2022-05-03 21:33:45 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('Insert into fb(...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('Insert into fb(...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('Insert into fb(...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('Insert into fb(...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(31): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 21:43:00 --> There is no data to insert.
+#0 C:\xampp\htdocs\Channeldoc.lk\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Feedback.php(45): CodeIgniter\Model->insert(Object(App\Entities\fb))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Feedback->writedb()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Feedback))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,128 @@
+ERROR - 2022-04-24 00:00:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE doctor_id =' at line 1
+CRITICAL - 2022-04-24 00:00:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE doctor_id =' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-24 00:00:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE doctor_id =' at line 1
+CRITICAL - 2022-04-24 00:00:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE doctor_id =' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-24 00:00:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE doctor_id =' at line 1
+CRITICAL - 2022-04-24 00:00:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE doctor_id =' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-24 00:00:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+CRITICAL - 2022-04-24 00:00:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-24 00:00:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+CRITICAL - 2022-04-24 00:00:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-24 00:00:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+CRITICAL - 2022-04-24 00:00:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-24 00:00:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+CRITICAL - 2022-04-24 00:00:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-24 00:00:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+CRITICAL - 2022-04-24 00:00:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_messages' WHERE user_id = 23' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\patientchat\index.php(355): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('patientchat/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\patientmessage.php(13): view('patientchat/ind...')
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientmessage->index()
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientmessage))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

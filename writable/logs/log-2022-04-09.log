@@ -1,0 +1,10 @@
+CRITICAL - 2022-04-09 10:14:37 --> Call to undefined function show_validation_error()
+#0 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include()
+#1 D:\Xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('/patientProfile...', Array, true)
+#3 D:\Xampp\htdocs\Channeldoc.lk\app\Controllers\patientProfile.php(91): view('/patientProfile...', Array)
+#4 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\patientProfile->editProfile()
+#5 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\patientProfile))
+#6 D:\Xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,39 @@
+CRITICAL - 2022-05-01 08:18:42 --> Undefined property: App\Controllers\Upload::$load
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Upload.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(802): App\Controllers\Upload->__construct()
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 08:19:35 --> Undefined variable $error
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Upload\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Upload/index.ph...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Upload.php(17): view('Upload/index.ph...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Upload->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 08:20:15 --> Undefined variable $error
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Views\Upload\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Upload/index.ph...', Array, true)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Upload.php(17): view('Upload/index.ph...')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Upload->index()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 08:20:22 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('Upload/index.ph...', Array, true)
+#3 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\Upload.php(17): view('Upload/index.ph...')
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\Upload->index()
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

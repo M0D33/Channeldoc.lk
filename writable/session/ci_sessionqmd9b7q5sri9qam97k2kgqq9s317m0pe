@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1650905518;_ci_previous_url|s:54:"http://localhost/Channeldoc.lk/public/Adminlogin/index";fname|s:8:"Muhammad";user_id|s:2:"23";fail|s:42:"User does not exist or Incorrect password!";__ci_vars|a:2:{s:4:"fail";s:3:"old";s:13:"_ci_old_input";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:2:{s:8:"username";s:6:"admin1";s:8:"password";s:5:"Admin";}}

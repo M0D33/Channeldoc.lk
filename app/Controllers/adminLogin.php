@@ -1,45 +1,49 @@
 <?php
 namespace App\Controllers;
 use CodeIgniter\Entity\Cast\BaseCast;
-class AdminLogin extends BaseController
+class Adminlogin extends BaseController
 {
     public function index()
     {
-        return view("adminLogin/index");
+        return view("Adminlogin/index");
     }
-     public function readdb()
+     public function verifydb()
     {
-        $model = new \App\Models\employeeModel();
+        $model2 = new \App\Models\AdminModel();
 
-        $Email = $this->request->getPost('Email');
-        $pwd = $this->request->getPost('pwd');
+        $username = $this->request->getPost('username');
+        $password = $this->request->getPost('password');
 
-        $empls = $model->where('Email', $Email)->first();
+        $adms = $model2->where('username', $username)->first();
 
-        if($empls != null && password_verify($pwd,$empls->pwd))
+        if($adms != null && password_verify($password,$adms->password))
         {
            //Login Succcessful
            $session = session(); //initialize session
            $session->regenerate(); // for security reasons
-           $session->set('name', $empls->name);
-           $session->set('id', $empls->id);
+           $session->set('username', $adms->username);
+           $session->set('admin_id', $adms->admin_id);
 
            //return redirect()->to("/Login/loginok")->with('info','Login Successful');
-           return redirect()->to("/adminDashboard/index")->with('info','Login OK'); 
+           return redirect()->to("/AdminDashboard/index")->with('info','Login OK'); 
        }
        else
        {
            //Wrong user name or password
-           //return redirect()->to("Login/loginnotok")->with('info','Login name or password mismatch!');
-           return redirect("/Home/index");
+           session()->setFlashdata('fail', 'User does not exist or Incorrect password!');
+           return redirect()->to("Adminlogin/index")->withInput();
+        
+
        }
 
     }
 
     public function logout()
     {
-        $session=session();
-        $session->destroy();
-        return redirect()->to("Home/index");//->with('info','Login name or password mismatch!');
+        if (session()->has('admin_id')) {
+			session()->remove('admin_id');
+			session()->remove('username');
+        return redirect()->to("login/index")->with('fail','You are logged out!');
+    }
     }
 }

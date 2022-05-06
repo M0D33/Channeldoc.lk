@@ -30,12 +30,12 @@ class Database extends Config
      *
      * @var array
      */
-    public $default = [
+    public $default = array(
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => '',
+        'username' => 'root',
         'password' => '',
-        'database' => '',
+        'database' => 'test',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -48,7 +48,7 @@ class Database extends Config
         'strictOn' => false,
         'failover' => [],
         'port'     => 3306,
-    ];
+    );
 
     /**
      * This database connection is used when

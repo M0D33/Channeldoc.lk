@@ -1,0 +1,199 @@
+CRITICAL - 2022-04-29 08:41:54 --> unlink(C:\xampp\htdocs\Channeldoc.lk\writable\debugbar/debugbar_1651136439.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1651239713, 20)
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\Channeldoc.lk\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-29 08:42:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-29 08:42:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminReportGenerate.php(29): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminReportGenerate->index('4')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminReportGenerate))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 08:45:24 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('AdminReportGene...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('AdminReportGene...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-29 08:45:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-29 08:45:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminReportGenerate.php(29): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminReportGenerate->index('4')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminReportGenerate))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 09:13:39 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminReportGenerate.php on line 25
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminReportGenerate.php(25): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminReportGenerate->index('4')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminReportGenerate))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 09:13:39 --> Invalid file: AdminDoctorReport/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminDoctorRepo...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminDoctorRepo...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(12): view('AdminDoctorRepo...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-29 09:13:44 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminReportGenerate.php on line 25
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminReportGenerate.php(25): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminReportGenerate->index()
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminReportGenerate))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 12:19:52 --> Undefined property: App\Controllers\AdminDoctorReport::$load
+#0 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 12:22:04 --> Call to undefined method App\Controllers\AdminDoctorReport::view()
+#0 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 12:22:53 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 6460)
+#1 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(6460): strpos(NULL, 'I')
+#2 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(15848): Mpdf\Mpdf->finishFlowingBlock(true)
+#3 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(13649): Mpdf\Mpdf->printbuffer(Array)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(29): Mpdf\Mpdf->WriteHTML(' ')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 12:28:15 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('AdminDoctorRepo...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('AdminDoctorRepo...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 12:28:49 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 6460)
+#1 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(6460): strpos(NULL, 'I')
+#2 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(15848): Mpdf\Mpdf->finishFlowingBlock(true)
+#3 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(13649): Mpdf\Mpdf->printbuffer(Array)
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(29): Mpdf\Mpdf->WriteHTML(' ')
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-29 12:33:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-29 12:33:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\AdminReport\index.php(46): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminReport/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(28): view('AdminReport/ind...', Array)
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-29 12:34:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-29 12:34:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\AdminReport\index.php(46): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminReport/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(28): view('AdminReport/ind...', Array)
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-29 12:35:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-29 12:35:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\AdminReport\index.php(46): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminReport/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(28): view('AdminReport/ind...', Array)
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-29 12:35:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-29 12:35:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\AdminReport\index.php(46): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminReport/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(28): view('AdminReport/ind...', Array)
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-29 12:35:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-29 12:35:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\Channeldoc.lk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM d...', 0)
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM d...')
+#2 C:\xampp\htdocs\Channeldoc.lk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Channeldoc.lk\app\Views\AdminReport\index.php(46): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('AdminReport/ind...', Array, true)
+#8 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(28): view('AdminReport/ind...', Array)
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#10 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#11 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-29 12:38:13 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 6460)
+#1 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(6460): strpos(NULL, 'I')
+#2 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(16315): Mpdf\Mpdf->finishFlowingBlock(true)
+#3 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Tag\BlockTag.php(234): Mpdf\Mpdf->printbuffer(Array, 0)
+#4 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Tag.php(243): Mpdf\Tag\BlockTag->open(Array, Array, 3)
+#5 C:\xampp\htdocs\Channeldoc.lk\vendor\mpdf\mpdf\src\Mpdf.php(13626): Mpdf\Tag->OpenTag('DIV', Array, Array, 3)
+#6 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\AdminDoctorReport.php(29): Mpdf\Mpdf->WriteHTML(' <br /><div cla...')
+#7 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\AdminDoctorReport->report('4')
+#8 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDoctorReport))
+#9 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

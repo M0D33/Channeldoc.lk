@@ -37,18 +37,16 @@
           <a class="nav-link" href="<?php echo site_url('/DoctorDashboard/index') ?>">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link"href= <?php echo site_url('/doctorProfile/index') ?>>My Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Channelling</a>
+          <a class="nav-link"href= <?php echo site_url('/AppointmentsPractitioners/index') ?>>Appointments</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scrollto" href="#doctors">Doctors</a>
+          <a class="nav-link"href= <?php echo site_url('/fbfordoctor/index') ?>>Feedbacks</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/AppointmentsPractitioners/index') ?>">
-           Appointments
-          </a>         
+          <a class="nav-link"href= <?php echo site_url('/appsbydocs/index') ?>>Edit My Sessions</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/DoctorAboutus/index') ?>">

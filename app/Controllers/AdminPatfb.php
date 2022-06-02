@@ -20,15 +20,14 @@
 
 
 // Admin deleting user accounts
-public function deleteUser($doctor_id)
+public function deleteUser($appid)
 {
   
 
-       $Docs = new \App\Models\doctorModel;
-        $Docs ->query("
-                        DELETE FROM doctor
-                        WHERE doctor_id = $doctor_id");
-         return redirect()->to('AdminDoctorProfiles/index')->with('fail', 'The Profile has been deleted');;
+       $Docs = new \App\Models\fb;
+        $Docs ->query("DELETE FROM fb
+        WHERE appid = $appid");
+         return redirect()->to('AdminPatfb/index')->with('success', 'The complaint has been deleted and it will not be shown to the doctor');;
         
 } 
 }

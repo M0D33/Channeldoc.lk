@@ -36,34 +36,33 @@
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo site_url('/Home/index') ?>">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href=<?php echo site_url('/patientProfile/index') ?>>My Profile</a>
-                    </li>
-                    <li class="nav-item">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Channelling</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scrollto" href=<?php echo site_url('/Search/index') ?>>Doctors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('/Aboutus/index') ?>">
-                            About Us
-                        </a>
-                    </li>
-                    <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/Feedback/index') ?>">
-           Feedback
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href= <?php echo site_url('/Home/index') ?>>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href= <?php echo site_url('/patientProfile/index') ?>>My Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Channeling/index') ?>">Channelling</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollto" href= <?php echo site_url('/Search/index') ?>>Doctors</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Aboutus/index') ?>">
+            About Us
           </a>         
         </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('/Contactus/index') ?>">
-                            Contact Us
-                        </a>
-                    </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Contactus/index') ?>">
+            Contact Us
+          </a>         
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-warning" href="tel:110">Call Ambulance</a>  
+        </li>
+                    
                     <ul class="navbar-nav ms">
                         <?php if (isset($_SESSION['user_id'])) { ?>
                             <a class="nav-link btn logoutbtn" href=<?php echo site_url('/login/logout') ?> style="text-decoration:none">Logout</a>
@@ -303,39 +302,7 @@
     </div>
     <!-- End of Doctors search, view and filter-->
 
-    <form class="contact" action="<?php echo site_url('/Search/writedb') ?>" method="post">
-        <div class="row mb-4">
-            <!-- <div class="col-md-6"> <label class="mb-0">
-                    <h6 class="mb-0 text-sm">First Name</h6>
-                </label>
-                <input type='text' class="form-control" required='yes' id='fname' placeholder="Enter you first name" name='fname' required="yes">
-            </div> -->
-            
-            <div class="col-md-6"> <label class="mb-0">
-                    <h6 class="mb-0 text-sm">Online or Offline?</h6>
-                    <input type='text' class="form-control" required='yes' id='how' placeholder="Physical or online?" name='how' required="yes">
-
-                </label>
-                <div class="col-md-6"> <label class="mb-0">
-                        <h6 class="mb-0 text-sm">Practitioner's ID</h6>
-                        <input type='text' class="form-control" id='doctor_id' placeholder="What is the doctor's ID?" name='doctor_id' size="10">
-                    </label>
-                    </label>
-                    <div class="col-md-6"> <label class="mb-0">
-                            <h6 class="mb-0 text-sm">Comments</h6>
-                            <input type='text' class="form-control" id='Comments' placeholder="Enter your comments" name='Comments' size="10">
-                        </label>
-                    </div><br>
-                    
-                    <!-- <div class="col-md-5"> <button class="btn btn-green text-center mb-1">Book</button> -->
-                    <input type="submit" name="submit" class="send-btn" value="send">
-                    <!-- </div> -->
-                    <!-- </div>
-                    <?php if (isset($valid)) { ?>
-                     <div class="alert alert-danger" role="alert">
-                     <?= $valid->listErrors(); ?>
-                    <?php } ?> -->
-    </form>
+    
     <!-- Footer -->
     <footer class="footer bg-light text-#28a745 pt-5 pb-3">
 

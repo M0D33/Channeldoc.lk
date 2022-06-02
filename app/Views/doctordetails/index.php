@@ -33,29 +33,33 @@
 
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=<?php echo site_url('/patientProfile/index') ?>>My Profile</a>
-          </li>
-          <li class="nav-item">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Channelling</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href=<?php echo site_url('/Search/index') ?>>Doctors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo site_url('/Aboutus/index') ?>">
-              About Us
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo site_url('/Contactus/index') ?>">
-              Contact Us
-            </a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href= <?php echo site_url('/Home/index') ?>>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href= <?php echo site_url('/patientProfile/index') ?>>My Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Channeling/index') ?>">Channelling</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollto" href= <?php echo site_url('/Search/index') ?>>Doctors</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Aboutus/index') ?>">
+            About Us
+          </a>         
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Contactus/index') ?>">
+            Contact Us
+          </a>         
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-warning" href="tel:110">Call Ambulance</a>  
+        </li>
+          
           <li class="nav-item">
           <a class="btn btn-warning" href="tel:110">Call Ambulance</a>  
         </li>
@@ -118,6 +122,7 @@
           </div>
         </div>
       </div>
+     
     </div>
   </div>
 
@@ -132,7 +137,7 @@
 
 
 
-
+<!-- 
   <div class="row">
               <?php
               session();
@@ -150,7 +155,7 @@
 
                     <li>Time <b><?php echo $row->time ?></b></li>
                     <li>Location <b><?php echo $row->location ?></b></li>
-                    <!-- <a class="nav-link btn logoutbtn" href=<?php echo site_url('Doctordetails/book/' . $row->doctor_id. $row->time. $row->location) ?> style="text-decoration:none">Book</a> -->
+                    <a class="nav-link btn logoutbtn" href=<?php echo site_url('Doctordetails/book/' . $row->doctor_id. $row->time. $row->location) ?> style="text-decoration:none">Book</a>
 
 
 
@@ -162,6 +167,83 @@
 
 
                 <form action=<?php echo site_url('Doctordetails/book') ?>  method='post' >
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+                
+  <div class="row">
+		
+    <div class="table-responsive">
+        <table class="table">
+        <thead style = "background-color:#28a745;color:#FFFFFF" >
+                <tr>
+                    
+                    <th>Time</th>
+                    <th>Location</th>
+                    
+                            
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+  session();
+
+  $doctorID = session()->get('doctor_id');
+  $app = new \App\Models\appointmentdoc;
+  $query = $app -> query("SELECT * FROM appointmentdoc WHERE doctor_id = $doctorID ");; 
+                  
+                  
+
+                    // Runs query to get approved ads of the user
+                    foreach ($query -> getResult() as $row){
+
+                ?>
+                    <tr>
+                            <td><?php echo $row -> time ?></td>
+                            <td><?php echo $row -> location ?></td>
+                          
+                        
+    
+                        
+                    </tr>
+                <?php 
+                } 
+                ?>
+
+            </tbody>
+            
+            
+                        
+        </table>
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<form action="<?php echo site_url('Doctordetails/book/'.$row->doctor_id) ?>" method="POST" enctype="multipart/form-data">
+
 
 <div class="col-lg-6">
 <div class="card2 card border-0 px-4 py-5">
@@ -177,13 +259,18 @@
           </label> 
           <input type='text' class="form-control" required='yes' placeholder="Enter prefered location" id='location' name='location' required= "yes" >
       </div>
-      <div class="col-md-6"> <label class="mb-0">
+     
+      <!-- <div class="col-md-6"> <label class="mb-0">
               <h6 class="mb-0 text-sm">Practitioner's ID</h6>
           </label> 
           <input type='text' class="form-control" required='yes' placeholder="Practitioner's ID" id='doctor_id' name='doctor_id' required= "yes" >
-      </div>
-  </div>
-  <div class="col-md-5"> <button class="btn btn-primary btnlogin">Submit</button> </div>
+      </div> -->
+  <!--   -->
+  <div class="col-md-5"> <button class="btn btn-success">Submit</button> </div>
+  <!-- <a href="<?php echo site_url('Doctordetails/book/' .$row->doctor_id) ?>" class="btn btn-outline-success float-end btn-sm">Book</a> -->
+
+  <input type="hidden" name='status' value="0">
+
 
 </form>
 
@@ -192,4 +279,63 @@
                           <div style="margin-top:5px" class="alert alert-success text-muted"> <?= session()->getFlashdata('success'); ?> </div>
                         <?php endif ?>
 
+
+
+
+
+
+
+                        <form action="<?php echo site_url('doctordetails/writedb/'.$row->doctor_id) ?>" method="POST" enctype="multipart/form-data">
+
+<div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+    <div class="card card0 border-0">
+        <div class="row d-flex">
+            <div class="col-lg-6">
+                <div class="card1 bg-light pb-5">
+                    <div class="row px-3 justify-content-center mt-4 mb-5"> <img src="<?= base_url('assets/images/user-reg.svg') ?>"  class="image"> </div>
+                    <div class="row px-3 text-center justify-content-center">
+                        <h4>Channeldoc.lk</h4> <small class="text-muted px-5 mx-1 mx-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card2 card border-0 px-4 py-5">
+                    <h3 class="mb-1">Give your feedback here</h3>
+                    <div class="row mt-2">
+                      
+                        <div class="col-md-6"> <label class="mb-0">
+                                <h6 class="mb-0 text-sm">Feedback Brief</h6>
+                            </label> 
+                            <input type='text' class="form-control" required='yes' placeholder="Enter the topic of your feedback in brief here" id='Brief' name='Brief' required= "yes"  >
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-2">
+                        <div class="col-md-6"> <label class="mb-1">
+                                <h6 class="mb-0 text-sm">Description</h6>
+                            </label> 
+                            <input type='text' class="form-control" placeholder="Enter description of feedback" required='yes' id='Description' name='Description' required= "yes"  >
+                        </div>
+                       
+                    </div>
+                  
+
+                    <div class="row mb-4">
+                        <div class="col-md-5"> <button class="btn btn-outline-success text-center mb-1">Submit</button> </div>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+            <input type="hidden" name='status' value="0">
+
+         </form>
+
+
+
+
+
+         
 </body>  

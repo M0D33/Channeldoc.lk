@@ -43,7 +43,7 @@
           <a class="nav-link"href= <?php echo site_url('/patientProfile/index') ?>>My Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Channelling</a>
+          <a class="nav-link" href="<?php echo site_url('/Channeling/index') ?>">Channelling</a>
         </li>
         <li class="nav-item">
           <a class="nav-link scrollto" href= <?php echo site_url('/Search/index') ?>>Doctors</a>
@@ -52,11 +52,6 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/Aboutus/index') ?>">
             About Us
-          </a>         
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/Feedback/index') ?>">
-           Feedback
           </a>         
         </li>
         <li class="nav-item">

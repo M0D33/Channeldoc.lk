@@ -13,3 +13,5 @@
         return view("AdminDashboard/index");
     }
   }
+
+  ?>

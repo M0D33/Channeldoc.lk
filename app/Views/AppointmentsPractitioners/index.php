@@ -1,5 +1,5 @@
 <!-- <div class="row">
-                                        <?php 
+<?php 
                                         session();
 
                                         $doctorID = session()->get('doctor_id');
@@ -93,30 +93,36 @@
 
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/DoctorDashboard/index') ?>">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Channelling</a>
+        <a class="nav-link" href="<?php echo site_url('AdminPatFb/index') ?>">Manage Feedbacks</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scrollto" href="#doctors">Doctors</a>
+          <a class="nav-link"href= <?php echo site_url('/doctorProfile/index') ?>>My Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link"href= <?php echo site_url('/AppointmentsPractitioners/index') ?>>Appointments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href= <?php echo site_url('/appsbydocs/index') ?>>Edit My Sessions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/DoctorAboutus/index') ?>">
             About Us
           </a>         
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="<?php echo site_url('/DoctorContactus/index') ?>">
             Contact Us
           </a>         
         </li>
         <ul class ="navbar-nav ms">
-        <?php if(isset($_SESSION['doctor_id'])){ ?>
-  <a class="nav-link btn logoutbtn" href= <?php echo site_url('/doctorlogin/logout') ?> style="text-decoration:none">Logout</a>
+        <?php if(isset($_SESSION['user_id'])){ ?>
+  <a class="nav-link btn logoutbtn" href= <?php echo site_url('/login/logout') ?> style="text-decoration:none">Logout</a>
     <?php }else{ ?>
-  <a class="nav-link btn loginbtn" href=<?php echo site_url('/doctorlogin/index') ?> style="text-decoration:none">Login</a>
+  <a class="nav-link btn loginbtn" href=<?php echo site_url('/login/index') ?> style="text-decoration:none">Login</a>
   <?php } ?>
     </ul>
 </ul>
@@ -124,7 +130,6 @@
     </div>
   </div>
 </nav>
-
 
 
 
@@ -136,6 +141,24 @@
 
 
 <form class="contact" action="<?php echo site_url('/AppointmentsPractitioners/writedb')?>" method="post">
+<div class="card-body">
+
+                                            <div class="card-body">
+                                              <h3> New Appoinments:</h3>
+                    <div class="table-responsive">
+                        <table class="table">
+                        <thead style = "background-color:#28a745; color:#FFFF" >
+                                <tr>
+                                    <th>Patient's name</th>
+                                    <th>Time</th>
+                                    <th>Location</th>
+                                    <th></th>
+
+                                                 
+                                    
+                                </tr>
+                                
+                           </thead>
 
  <?php 
                                         session();
@@ -144,7 +167,7 @@
                                                     
                                         $doctorModel = new \App\Models\Appointments; 
 
-                                        $query = $doctorModel -> query("SELECT * FROM appointments WHERE doctor_id = $doctorID"); 
+                                        $query = $doctorModel -> query("SELECT * FROM appointments WHERE doctor_id = $doctorID and status = 'Confirmation Pending'"); 
 
 
                                         foreach ($query -> getResult() as $row) 
@@ -152,38 +175,123 @@
                                         
                                         ?>
 
-                                            <div class="card-body">
+                                            
+                                            <tr>
+                                            <td><?php echo $row -> fname ?></td>
+                                            <td><?php echo $row -> time ?></td>
+                                            <td><?php echo $row -> location ?></td>
+                                            <td><a href="<?php echo base_url('AppointmentsPractitioners/approvepatient/'.$row -> appointmentid)?>" class="btn btn-success float-end btn-sm">Approve</a>
 
-                                            <div class="card-body">
+</td>
+
+                                       
+                                            </tr>
+
+                                             <?php } ?>
+                                        </table>
+
+                                         </div>
+                                         <hr>
+                                         <h3> Appoinments in progress:</h3>
                     <div class="table-responsive">
                         <table class="table">
                         <thead style = "background-color:#28a745; color:#FFFF" >
                                 <tr>
-                                    <th>ID</th>
+                                    <th>Patient's name</th>
                                     <th>Time</th>
                                     <th>Location</th>
-                                                 
+                                    <th></th>                                     
                                     
                                 </tr>
                                 
                            </thead>
+
+                                <?php 
+                                        session();
+
+                                        $doctorID = session()->get('doctor_id');
+                                                    
+                                        $doctorModel = new \App\Models\Appointments; 
+
+                                        $query = $doctorModel -> query("SELECT * FROM appointments WHERE doctor_id = $doctorID and status = 'Confirmed' and done='0'"); 
+
+
+                                        foreach ($query -> getResult() as $row) 
+                                        {
+                                        
+                                        ?>
+
+                                            
                                             <tr>
-                                            <td><?php echo $row -> doctor_id ?></td>
+                                            <td><?php echo $row -> fname ?></td>
                                             <td><?php echo $row -> time ?></td>
                                             <td><?php echo $row -> location ?></td>
+                                            <td><a href="<?php echo base_url('AppointmentsPractitioners/markdone/'.$row -> appointmentid)?>" class="btn btn-success float-end btn-sm">Mark Done</a>
+
+                                            </td>
 
                                        
                                             </tr>
+
                                              <?php } ?>
-                                           
+                        </table>
+                    </div>
+                    <hr>
+                                         <h3> Finished Appoinments:</h3>
+                    <div class="table-responsive">
+                        <table class="table">
+                        <thead style = "background-color:#28a745; color:#FFFF" >
+                                <tr>
+                                    <th>Patient's name</th>
+                                    <th>Time</th>
+                                    <th>Location</th>
+                                    <th>Medical document requests</th>                                     
+                                    
+                                </tr>
+                                
+                           </thead>
+
+                                <?php 
+                                        session();
+
+                                        $doctorID = session()->get('doctor_id');
+                                                    
+                                        $doctorModel = new \App\Models\Appointments; 
+
+                                        $query = $doctorModel -> query("SELECT * FROM appointments WHERE doctor_id = $doctorID and status = 'Confirmed' and done='1'"); 
+
+
+                                        foreach ($query -> getResult() as $row) 
+                                        {
+                                        
+                                        ?>
+
+                                            
+                                            <tr>
+                                            <td><?php echo $row -> fname ?></td>
+                                            <td><?php echo $row -> time ?></td>
+                                            <td><?php echo $row -> location ?></td>
+                                            <?php if($row->req == '1'): ?>
+                                            <td><a href="<?php echo base_url('DocUpload/upload/'.$row -> appointmentid)?>" class="btn btn-success float-end btn-sm">Upload</a>
+                                            <?php endif; ?>
+                                            </td>
+
+                                       
+                                            </tr>
+
+                                             <?php } ?>
+                        </table>
+                    </div>
+                                            </div>
+                                            </div>
+
                                             <div class="row mt-2">
-                                           
+
                         <div class="col-md-6"> <label class="mb-0">
                        
                              </div>
-                            
                     </div>
-                    
+
                     <br>
                    
                     <!-- <?php if(isset($valid)) { ?>

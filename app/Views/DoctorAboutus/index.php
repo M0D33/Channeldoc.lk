@@ -37,27 +37,16 @@
           <a class="nav-link" href="<?php echo site_url('/DoctorDashboard/index') ?>">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link"href= <?php echo site_url('/doctorProfile/index') ?>>My Profile</a>
         </li>
         <li class="nav-item">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Channelling</a>
+          <a class="nav-link"href= <?php echo site_url('/AppointmentsPractitioners/index') ?>>Appointments</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scrollto" href="#">Doctors</a>
+          <a class="nav-link"href= <?php echo site_url('/fbfordoctor/index') ?>>Feedbacks</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/AppointmentsPractitioners/index') ?>">
-           Appointments
-          </a>         
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/AppointmentsPractitioners/index') ?>">
-           Appointments
-          </a>         
+          <a class="nav-link"href= <?php echo site_url('/appsbydocs/index') ?>>Edit My Sessions</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/DoctorAboutus/index') ?>">
@@ -65,7 +54,7 @@
           </a>         
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="<?php echo site_url('/DoctorContactus/index') ?>">
             Contact Us
           </a>         
         </li>
@@ -82,67 +71,27 @@
   </div>
 </nav>
 <!-- <p style="background-image: src="<?= base_url('assets/images/img123.jpg') ?>"> -->
-<br> <br> <br>
+<br><br><br><br>
+<br>
 <div class="container">
-    <div class="card" style="margin-left:20px;margin-right:20px">
-    <div class="card-header bg-custom" style="color:white">
-      Contact Us
-    </div>
-		<div class="col-md-12 mt-5 mb-5">
-        
-            <div class = "contact-section">
-                    <div class= "contact-info">
-                  
-                        <div><p class="text-center"><i class ="fas fa-map-marker-alt"></i> 95b Srimath Anagarika Dharmapala Mawatha, Colombo 00007, Sri Lanka</p></div>
-                        <div><p class="text-center"><i class ="fas fa-envelope"></i> channeldoc.lk@gmail.com</p></div>
-                        <div><p class="text-center"><i class ="fas fa-phone"></i> (+94) 77 579 2352</p></div>
-                    
-                    </div>
-                    <hr>
-                    <hr>
-                    <br>
-                    <div class="card-body">
-                      <?php if (!empty(session()->getFlashdata('fail'))) : ?>
-                          <div style="margin-top:5px" class="alert alert-danger text-muted"> <?= session()->getFlashdata('fail'); ?> </div>
-                        <?php endif ?>
+<div class="col-md-20 blog" >
+          <h3 class="pb-3 mb-4 font-italic border-bottom">
+            About Us
+          </h3>
 
-                        <?php if (!empty(session()->getFlashdata('success'))) : ?>
-                          <div style="margin-top:5px" class="alert alert-success text-muted"> <?= session()->getFlashdata('success'); ?> </div>
-                        <?php endif ?>
-                    
-                    <form class="contact" action="<?php echo site_url('/DoctorContactus/writedb')   ?>" method="post">
-                    <div class="form-row">
-                    <div class="row mt-2">
-                    <div class="form-group col-md-4">
-                    <p class="text-center">
-                    <label>Your Name: </label>
-                        <input type="text" id="name" name="name" class = "text-box" placeholder="Your Name" required="yes"></p>
-                    </div>
-                    <div class="form-group col-md-4">
-                    <p class="text-center">
-                    <label>Email: </label>
-                        <input type="email" id="email" name="email" class = "text-box" placeholder="Your Email" required="yes"></p>
-                    </div>
-                    <br><br>
-                    
-                    <label>Massage: </label>
-                        <textarea  id="message" name="message" rows="5" placeholder="Your Message" required="yes"></textarea>
-                        <input type="hidden" name='seen' value="0">
+          <div class="blog-post">
+            <h2 class="blog-post-title">Channeldoc.lk</h2>
+            <p class="blog-post-meta">February 28, 2022 </p>
 
-                        <input type="submit" name="submit" class="btn btn-primary mb-2" value = "send">
-                        </div>
-                    </div>
-                    </form>
-                    </div>
-                
-               
-            </div>
-       
-        </div>
-    
-        </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <hr>
+            
+          </div><!-- /.blog-post -->
+
+          
+
 </div>
-
+</div>
 
 </body>
 </html>

@@ -38,7 +38,9 @@
 
               </div>
             </li> -->
-
+            <li class="nav-item">
+        <a class="nav-link" href="<?php echo site_url('AdminPatFb/index') ?>">Manage Feedbacks</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('AdminDoctorProfiles/index') ?>">Doctor Profiles</a>
         </li>

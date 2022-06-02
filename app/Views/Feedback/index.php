@@ -6,8 +6,63 @@
     <title>Patient Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
 
+<!-- NavBar -->
+<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Channeldoc.lk</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href= <?php echo site_url('/Home/index') ?>>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href= <?php echo site_url('/patientProfile/index') ?>>My Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Channeling/index') ?>">Channelling</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollto" href= <?php echo site_url('/Search/index') ?>>Doctors</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Aboutus/index') ?>">
+            About Us
+          </a>         
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Feedback/index') ?>">
+           Feedback
+          </a>         
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/Contactus/index') ?>">
+            Contact Us
+          </a>         
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-warning" href="tel:110">Call Ambulance</a>  
+        </li>
+                    
+                    <ul class="navbar-nav ms">
+                        <?php if (isset($_SESSION['user_id'])) { ?>
+                            <a class="nav-link btn logoutbtn" href=<?php echo site_url('/login/logout') ?> style="text-decoration:none">Logout</a>
+                        <?php } else { ?>
+                            <a class="nav-link btn loginbtn" href=<?php echo site_url('/login/index') ?> style="text-decoration:none">Login</a>
+                        <?php } ?>
+                    </ul>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
 
 <style>
 body {
@@ -111,7 +166,7 @@ button:focus {
 
     </style>
 
-<form action=<?php echo site_url('Feedback/writedb') ?>  method='post' >
+<form action=<?php echo site_url('Feedback/writedb/'.$row->doctor_id) ?>  method='post' >
 
 <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
     <div class="card card0 border-0">

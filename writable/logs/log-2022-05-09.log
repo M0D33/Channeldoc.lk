@@ -1,0 +1,276 @@
+CRITICAL - 2022-05-09 08:50:44 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 08:51:11 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 08:51:13 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 08:51:13 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 08:51:13 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 08:52:36 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:52:37 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:52:38 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:52:38 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:53:22 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:53:23 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:53:23 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:53:23 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:53:26 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:54:25 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:54:26 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:54:28 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:55:13 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:56:05 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:56:22 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:56:23 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:56:54 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:55 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:55 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:55 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:56 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:56 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:56 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:56 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:56 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:56 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:57 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:57:57 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 08:58:00 --> Invalid file: DoctorReportGenerate/index.php
+#0 C:\xampp\htdocs\Channeldoc.lk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DoctorReportGen...')
+#1 C:\xampp\htdocs\Channeldoc.lk\system\Common.php(1089): CodeIgniter\View\View->render('DoctorReportGen...', Array, true)
+#2 C:\xampp\htdocs\Channeldoc.lk\app\Controllers\DoctorReportGenerate.php(13): view('DoctorReportGen...')
+#3 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(825): App\Controllers\DoctorReportGenerate->index()
+#4 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorReportGenerate))
+#5 C:\xampp\htdocs\Channeldoc.lk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Channeldoc.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

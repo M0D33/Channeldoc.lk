@@ -39,17 +39,20 @@
 
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/DoctorDashboard/index') ?>">Dashboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"href= <?php echo site_url('/doctorProfile/index') ?>>My Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Channelling</a>
+          <a class="nav-link"href= <?php echo site_url('/AppointmentsPractitioners/index') ?>>Appointments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href= <?php echo site_url('/fbfordoctor/index') ?>>Feedbacks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href= <?php echo site_url('/appsbydocs/index') ?>>Edit My Sessions</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/DoctorAboutus/index') ?>">
@@ -86,36 +89,65 @@
         <div class=" flex-d flex-row justify-content-between ml-5 mr-5 mt-4">
             <div class="row mb-4">
                 <div class="col-md-3">
-                    <div class="card-counter primary">
+                  <div class ="card">
+                    <div class="card-body">
                         <i class="fa fa-code-fork"></i>
+                        <h5 class="card-title">New Appointments</h5>
                         <span class="count-numbers" id="jobPostings"></span>
-                        <span class="count-name">Patients Registered</span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('DocDashNewAppoint/index') ?> class="btn btn-primary">Click</a>
+                      
                     </div>
+                  </div>
                 </div>
 
                 <div class="col-md-3">
-                    <div class="card-counter danger">
+                <div class ="card">
+                    <div class="card-body">
                         <i class="fa fa-ticket"></i>
+                        <h5 class="card-title">Appointments in Progress</h5>
                         <span class="count-numbers" id="applicantsApplied"></span>
-                        <span class="count-name">Doctors Registered</span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('DocDashAppointPro/index') ?> class="btn btn-primary">Click</a>
                     </div>
+                </div>
                 </div>
 
                 <div class="col-md-3">
-                    <div class="card-counter success">
-                        <i class="fa fa-database"></i>
-                        <span class="count-numbers" id="shortlistedApplicants"></span>
-                        <span class="count-name">Shortlisted Applicants</span>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card-counter info">
+                    <div class="card" style="width: 18rem;">
                         <i class="fa fa-users"></i>
-                        <span class="count-numbers" id="sharedAdverts"></span>
-                        <span class="count-name">Adverts Shared</span>
+                        <div class="card-body">
+                          <h5 class="card-title">Finished Appointments</h5>                      
+                        <span class="count-numbers" id="newcontactusmessages"></span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('DocDashFinishAppoint/index') ?> class="btn btn-primary">Click</a>
                     </div>
                 </div>
+            </div>
+
+            <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa fa-users"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Medical Document Requests</h5>                      
+                        <span class="count-numbers" id="newcontactusmessages"></span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('DocDashDocReq/index') ?> class="btn btn-primary">Click</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa fa-users"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Feedbacks you got</h5>                      
+                        <span class="count-numbers" id="newcontactusmessages"></span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('fbfordoctor/index') ?> class="btn btn-primary">Click</a>
+                    </div>
+                </div>
+            </div>
 
                 
             </div>
@@ -126,16 +158,9 @@
 
 
     </div>
-    <!-- <a href=<?php echo site_url('DoctorReportGenerate/index') ?> class="btn btn-primary">Generate Report about yourself</a> -->
+    <br>
+    <a href=<?php echo site_url('DoctorReport/index') ?> class="btn btn-primary"> Generate Report </a> 
     </div>
-
-
-
-
-
-
-
-
 
 
 

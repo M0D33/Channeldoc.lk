@@ -41,5 +41,24 @@ class AppointmentsPractitioners extends BaseController
     //     $model->insert($empls);
     //     return redirect()->to('login/index')->with('success', 'User Registration Successful');
     // }
+   
+     }
+    public function approvepatient($appointmentid){
+      // session();
+      // session()->regenerate();
+      // $doctor_id = session()->get('doctor_id');
+      $Docs = new \App\Models\Appointments;
+      $Docs -> query("UPDATE  appointments SET status = 'Confirmed' WHERE appointmentid = $appointmentid"); // Changes approval
     
-     }}
+      return redirect()->to('AppointmentsPractitioners/index')->with('success', 'Appointment has been approved');;
+    }
+
+    public function markdone($appointmentid)
+    {
+        $doc = new \App\Models\Appointments;
+        $doc -> query("UPDATE appointments SET done = '1' WHERE appointmentid = $appointmentid and done = '0'"); // Changes approval
+
+        return redirect()->to('AppointmentsPractitioners/index')->with('success', 'Appointment marked as done');;
+
+    }
+    }

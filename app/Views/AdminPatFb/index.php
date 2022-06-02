@@ -30,6 +30,9 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="<?php echo site_url('AdminDashboard/index') ?>">Dashboard</a>
         </li>
+        <li class="nav-item">
+        <a class="nav-link" href="<?php echo site_url('AdminPatFb/index') ?>">Manage Feedbacks</a>
+        </li>
         <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Member Profiles
@@ -84,8 +87,8 @@
                         <table class="table table-bordered">
                             <thead style = "background-color:#28a745;color:#FFFFFF" >
                                 <tr>
-                                    <th>Practitioner's ID</th>
-                                    <th>Feedback</th>
+                                    <th>Patient's name</th>
+                                    <th>Doctor's name</th>
                                     <th>Description</th>
                                    
                                 </tr>
@@ -105,13 +108,13 @@
 
                                 ?>
                                     <tr>
-                                        <td><?php echo $row -> doctor_name ?></td>
-                                        <td><?php echo $row -> Brief ?></td>
+                                        <td><?php echo $row -> fname ?></td>
+                                        <td><?php echo $row -> doctor_id ?></td>
                                         <td><?php echo $row -> Description ?></td>
                                        
                                         </td>
                                         <td>
-                                            <a href="<?php echo base_url('AdminPatientProfiles/deleteUser/'.$row -> user_id)?>" class="btn btn-danger float-end btn-sm">Delete Profile</a>
+                                            <a href="<?php echo base_url('AdminPatfb/deleteUser/'.$row -> appid)?>" class="btn btn-danger float-end btn-sm">Delete Feedback</a>
                                         </td>
                                         
                                     </tr>

@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -33,28 +33,31 @@
 
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href= <?php echo site_url('/Home/index') ?>>Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"href= <?php echo site_url('/patientProfile/index') ?>>My Profile</a>
         </li>
         <li class="nav-item">
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/channeling/index') ?>">Channelling</a>
+          <a class="nav-link" href="<?php echo site_url('/Channeling/index') ?>">Channelling</a>
         </li>
         <li class="nav-item">
           <a class="nav-link scrollto" href= <?php echo site_url('/Search/index') ?>>Doctors</a>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="<?php echo site_url('/Aboutus/index') ?>">
             About Us
           </a>         
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="<?php echo site_url('/Contactus/index') ?>">
             Contact Us
           </a>         
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-warning" href="tel:110">Call Ambulance</a>  
         </li>
         <ul class ="navbar-nav ms">
         <?php if(isset($_SESSION['user_id'])){ ?>
@@ -76,106 +79,169 @@
 				<div class="box_general_3 cart">
 
 					<div class="form_title">
-						<h3>Your Details</h3>
+						<h3>Your channels:</h3>
 						<p>
-							Add your basic details
+							Pending channels
 						</p>
 					</div>
-					<div class="step">
-						<div class="row">
-							<div class="col-md-6 col-sm-6">
-								<div class="form-group">
-									<label>First name</label>
-									<input type="text" class="form-control" id="firstname_booking" name="firstname_booking" placeholder="Jhon">
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					<hr>
-					<!--End step -->
+					<div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead style = "background-color:#28a745;color:#FFFFFF" >
+                                <tr>
+                                    <th>Doctor ID</th>
+                                    <th>Time</th>
+                                    <th>Location</th>
+                                    <th>Appoinment ID</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
 
-					<div class="form_title">
-						<h3>Extra information</h3>
-						<p>
-							Add your previous medical report
-						</p>
-					</div>
-					<div class="step">
+                            <?php 
+                                        session();
 
-                        <form action="/finddoc/images/upload" class="dropzone">
-                            <div class="fallback">
-                                <input name="file" type="file" multiple />
-
-                                <input type="submit">
-                            </div>
-                        </form>
-					</div>
-					<hr>
-					<!--End step -->
-
-
-
-					<!--End step -->
-					<div id="policy">
-						<h4>Cancellation policy</h4>
-						<div class="form-group">
-							<label>
-								<input type="checkbox" name="policy_terms" id="policy_terms"> I accept terms and conditions and general policy.
-							</label>
-						</div>
-					</div>
-				</div>
-				</div>
-				<!-- /col -->
-				<aside class="col-xl-4 col-lg-4" id="sidebar">
-					<div class="box_general_3 booking">
-          <div class="form-group">
-							<div class="title">
-								<h3>Doctor Details</h3>
-							</div>
-							
-              <?php 
-                session();
-
-                $doctorID = session()->get('doctor_id');
+                                        $patientID = session()->get('user_id');
                                                     
-                $doctorModel = new \App\Models\doctorModel; 
+                                        $appoinmentModel = new \App\Models\Appointments; 
 
-                $query = $doctorModel -> query("SELECT * FROM doctor WHERE doctor_id = $doctorID"); 
+                                        $query = $appoinmentModel -> query("SELECT * FROM appointments WHERE patid = $patientID and status = 'Confirmation Pending'"); 
 
-                foreach ($query -> getResult() as $row) 
-                {
-                ?>
-                <div class="profile">
 
-                <ul>
-                        <li>First Name: <b><?php echo $row -> Fname ?></b></li>
-                        <li>Last Name: <b><?php echo $row -> Lname ?></b></li>
-                        <li>Email: <b><?php echo $row -> Email ?></b></li>
-                        <li>Gender: <b><?php echo $row -> Gender ?></b></li>
-                        <li>Qualification: <b><?php echo $row -> qualification ?></b></li>
-                        <li>Area of expertise: <b><?php echo $row -> areaofexpertise ?></b></li>
-                        <li>District: <b><?php echo $row -> district ?></b></li>
-                        <li>Place of Work: <b><?php echo $row -> placeofwork ?></b></li>
-                                                
-                </ul>
-                <?php } ?>
-              </div>
-              
-              </div>
-							<hr>
-							<a href="confirm.html" class="btn_1 full-width">Confirm and pay</a>
-						</form>
-					</div>
-					<!-- /box_general -->
-				</aside>
-				<!-- /asdide -->
+                                        foreach ($query -> getResult() as $row) 
+                                        {
+                                        
+                                        ?>
+
+                                            
+                                            <tr>
+                                            <td><?php echo $row -> doctor_id ?></td>
+                                            <td><?php echo $row -> time ?></td>
+                                            <td><?php echo $row -> location ?></td>
+                                            <td><?php echo $row -> appointmentid ?></td>
+                                            
+                                            </tr>
+
+                                             <?php } ?>
+                                        </tbody>
+                                        </table>
+                                        </div>
+                                        <br>
+                            <p>
+							Accepted channels
+						    </p>
+                            <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead style = "background-color:#28a745;color:#FFFFFF" >
+                                <tr>
+                                    <th>Doctor ID</th>
+                                    <th>Time</th>
+                                    <th>Location</th>
+                                    <th>Appoinment ID</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <?php 
+                                        session();
+
+                                        $patientID = session()->get('user_id');
+                                                    
+                                        $appoinmentModel = new \App\Models\Appointments; 
+
+                                        $query = $appoinmentModel -> query("SELECT * FROM appointments WHERE patid = $patientID and status = 'Confirmed'"); 
+
+
+                                        foreach ($query -> getResult() as $row) 
+                                        {
+                                        
+                                        ?>
+
+                                            
+                                            <tr>
+                                            <td><?php echo $row -> doctor_id ?></td>
+                                            <td><?php echo $row -> time ?></td>
+                                            <td><?php echo $row -> location ?></td>
+                                            <td><?php echo $row -> appointmentid ?></td>
+                                            
+                                            </tr>
+
+                                             <?php } ?>
+                                        </tbody>
+                                        </table>
+                                        </div>
+
+                                        <br>
+                            <p>
+							Channel History
+						    </p>
+                            <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead style = "background-color:#28a745;color:#FFFFFF" >
+                                <tr>
+                                    <th>Doctor ID</th>
+                                    <th>Time</th>
+                                    <th>Location</th>
+                                    <th>Appoinment ID</th>
+                                    <th>Request Medical Documents</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <?php 
+                                        session();
+
+                                        $patientID = session()->get('user_id');
+                                                    
+                                        $appoinmentModel = new \App\Models\Appointments; 
+
+                                        $query = $appoinmentModel -> query("SELECT * FROM appointments WHERE patid = $patientID and status = 'Confirmed' and done='1'"); 
+
+
+                                        foreach ($query -> getResult() as $row) 
+                                        {
+                                        
+                                        ?>
+
+                                            
+                                            <tr>
+                                            <td><?php echo $row -> doctor_id ?></td>
+                                            <td><?php echo $row -> time ?></td>
+                                            <td><?php echo $row -> location ?></td>
+                                            <td><?php echo $row -> appointmentid ?></td>
+                                            <?php if($row->req == '0'): ?>
+                                            <td><a href="<?php echo base_url('Channeling/req/'.$row -> appointmentid)?>" class="btn btn-success float-end btn-sm">Request</a>
+                                            <?php endif; ?>
+                                            <?php if($row->req == '1'): 
+                                              
+                                              $docModel = new \App\Models\pracDocModel; 
+
+                                              $query = $docModel -> query("SELECT * FROM pracdoc WHERE appointment_id='$row->appointmentid'"); 
+
+
+                                              foreach ($query -> getResult() as $row) 
+                                              {
+                                              
+                                              ?>
+                                            <td><a href="../<?php echo $row->doc; ?>" class="btn btn-warning btn-sm">Download Document</a>
+                                            <?php } ?>
+                                            <?php endif; ?>
+                                            </tr>
+
+                                             <?php } ?>
+                                        </tbody>
+                                        </table>
+                                        </div>
+
+
         </div>
-			</div>
+      </div>
+        </div>
+      </div>
+</div>
 
 
 
 
 
 </body>
+</html>

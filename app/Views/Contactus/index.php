@@ -33,31 +33,26 @@
 
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?php echo site_url('/Home/index') ?>">Home</a>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href= <?php echo site_url('/Home/index') ?>>Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"href= <?php echo site_url('/patientProfile/index') ?>>My Profile</a>
         </li>
         <li class="nav-item">
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/channeling/index') ?>">Channelling</a>
+          <a class="nav-link" href="<?php echo site_url('/Channeling/index') ?>">Channelling</a>
         </li>
         <li class="nav-item">
           <a class="nav-link scrollto" href= <?php echo site_url('/Search/index') ?>>Doctors</a>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="<?php echo site_url('/Aboutus/index') ?>">
             About Us
           </a>         
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/Feedback/index') ?>">
-           Feedback
-          </a>         
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="<?php echo site_url('/Contactus/index') ?>">
             Contact Us
           </a>         
         </li>

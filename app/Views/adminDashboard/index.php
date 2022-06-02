@@ -38,7 +38,9 @@
 
               </div>
             </li> -->
-
+        <li class="nav-item">
+        <a class="nav-link" href="<?php echo site_url('AdminPatFb/index') ?>">Manage Feedbacks</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('AdminDoctorProfiles/index') ?>">Doctor Profiles</a>
         </li>
@@ -71,7 +73,6 @@
     <div class="card">
         <div class="card-header">
             <h3> Dashboard </h3>
-            <h4>FeedBack</h4>
         </div>
 
         <?php 
@@ -86,57 +87,77 @@
           ?>
 
 
-      
-  <div class="row">
-		
-    <div class="table-responsive">
-        <table class="table">
-        <thead style = "background-color:#28a745;color:#FFFFFF" >
-                <tr>
-                    
-                    <th>Name</th>
-                    <th>Doctor's name</th>
-                    <th>Brief</th>
-                    <th>Description</th>
+        <div class=" flex-d flex-row justify-content-between ml-5 mr-5 mt-4">
+            <div class="row mb-4">
+                <div class="col-md-3">
+                  <div class ="card">
+                    <div class="card-body">
+                        <i class="fa fa-code-fork"></i>
+                        <h5 class="card-title">Patients Registered</h5>
+                        <span class="count-numbers" id="jobPostings"></span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('AdminDashPatientReg/index') ?> class="btn btn-primary">Click</a>
+                      
+                    </div>
+                  </div>
+                </div>
 
-                    
-                            
-                </tr>
-            </thead>
-            <tbody>
-                <?php
+                <div class="col-md-3">
+                <div class ="card">
+                    <div class="card-body">
+                        <i class="fa fa-ticket"></i>
+                        <h5 class="card-title">Doctors Registered</h5>
+                        <span class="count-numbers" id="applicantsApplied"></span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('AdminDashDocReg/index') ?> class="btn btn-primary">Click</a>
+                    </div>
+                </div>
+                </div>
 
-                    session();
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa fa-users"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">New Contactus Messages</h5>                      
+                        <span class="count-numbers" id="newcontactusmessages"></span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('Adminnewcontactusmessages/index') ?> class="btn btn-primary">see messages</a>
+                    </div>
+                </div>
+            </div>
 
-                    $newmsg = new \App\Models\fb;
+            <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa fa-users"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">New Feedback Messages</h5>                      
+                        <span class="count-numbers" id="newcontactusmessages"></span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('Adminnewfeedback/index') ?> class="btn btn-primary">see messages</a>
+                    </div>
+                </div>
+            </div>
 
-                    // Runs query to get approved ads of the user
-                    $query = $newmsg -> query("SELECT * FROM fb  ");; 
-                    foreach ($query -> getResult() as $row){
+            <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fa fa-users"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Manage recieved feedbacks</h5>                      
+                        <span class="count-numbers" id="newcontactusmessages"></span>
+                        <span class="count-name">View to see</span>
+                        <a href=<?php echo site_url('Adminpatfb/index') ?> class="btn btn-primary">see messages</a>
+                    </div>
+                </div>
+            </div>
 
-                ?>
-                    <tr>
-                            <td><?php echo $row -> fname ?></td>
-                            <td><?php echo $row -> doctor_name ?></td>
-                            <td><?php echo $row -> Brief ?></td>
-                            <td><?php echo $row -> Description ?></td>
-                           
-    
-                        
-                    </tr>
-                <?php 
-                } 
-                ?>
+          
 
-            </tbody>
-            
-            
-                        
-        </table>
-        <a href="<?php echo base_url('Adminnewcontactusmessages/seeconusmsg')?>" class="btn btn-success float-end btn-sm">Mark as read & Go Back</a>
+        </div>
+
+
     </div>
-</div>
-
+    <a href=<?php echo site_url('AdminReport/index') ?> class="btn btn-primary"> Generate Report </a> 
+    </div>
 
     
 
